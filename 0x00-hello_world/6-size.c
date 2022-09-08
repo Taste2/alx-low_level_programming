@@ -10,6 +10,6 @@ int main(void)
 	printif("%lu\n", sizeof(int));
 	printif("%lu\n", sizeof(long int));
 	printif("%lu\n", sizeof(long long int));
-	printif("%lu\n", sizeof(float);
+	printif("%lu\n", sizeof(float));
 			return (0);
 }
