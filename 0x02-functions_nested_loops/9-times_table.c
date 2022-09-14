@@ -34,6 +34,8 @@ void times_table(void)
 				if (b == 9)
 
 					continue;
+				_putchar(',');
+				_putchar(' ');
 			}
 		}
 		_putchar('\n');
