@@ -19,6 +19,7 @@ int main(void)
  *	{
  *		putchar(i);
  *	}
+ *printf - prints messages
  */
 	printf("Infinite loop avoided! \\o/\n");
 
