@@ -4,7 +4,7 @@
  * print_line - draws a straight line
  * @n: number of times
  */
-void print_numbers(int n)
+void print_line(int n)
 {
 	if (n <= 0)
 	{
