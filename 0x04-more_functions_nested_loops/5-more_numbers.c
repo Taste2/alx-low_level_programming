@@ -5,7 +5,7 @@
  * on a new a line
  */
 
-void morre_numbers(void)
+void more_numbers(void)
 {
 	int i, j;
 
