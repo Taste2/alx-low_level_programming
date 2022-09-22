@@ -1,4 +1,3 @@
-448 Bytes
 #include "main.h"
 /**
  * _strncat - concatenates two strings,
