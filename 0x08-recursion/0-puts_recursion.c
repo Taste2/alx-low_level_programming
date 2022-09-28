@@ -8,12 +8,5 @@
 
 void _puts_recursion(char *s)
 {
-	unsigned int i = 0;
-
-	if (s[i] == '\0')
-	{
-		return;
-	}
 	_puts_recursion(s);
-	i++;
 }
