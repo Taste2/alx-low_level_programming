@@ -6,7 +6,14 @@
  * Return: void
  */
 
-void _puts_recursion(char *s)
+void _puts_recursion(char *)
 {
-	_puts_recursion(s);
+	unsigned int i = 0;
+
+	if (s[i] < '\0')
+	{
+		_putchar(s[i]);
+	}
+	i++;
+	return;
 }
