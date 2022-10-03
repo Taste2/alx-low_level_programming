@@ -8,8 +8,8 @@
  * Return: number of args
  */
 
-int main(int argc, char *argv[])
+int main(int argc, __attribute__((unused)) char *argv[])
 {
-	printf("%d\n", atoi(argv[argc - 1]));
-		return (argc);
+	printf("%d\n", argc - 1);
+		return (0);
 }
