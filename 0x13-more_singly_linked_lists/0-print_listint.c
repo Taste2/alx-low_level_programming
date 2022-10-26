@@ -8,15 +8,13 @@
 
 size_t print_listint(const listint_t *h)
 {
-	listint_t *trav;
 
 	size_t count = 0;
 
-	trav = h;
-	while (trav)
+	while (h)
 	{
-		printf("%d", trav->n);
-		trav = trav->next;
+		printf("%d", h->n);
+		h = h->next;
 		count++;
 	}
 
