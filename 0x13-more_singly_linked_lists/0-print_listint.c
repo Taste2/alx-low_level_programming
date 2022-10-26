@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 
 /**
 *print_listint - prints the elements
@@ -8,13 +8,16 @@
 
 size_t print_listint(const listint_t *h)
 {
+	listint_t *trav;
+
+	trav = h;
 
 	size_t count = 0;
 
-	while (h)
+	while (trav)
 	{
-		printf("%d", h->n);
-		h = h->next;
+		printf("%d", trav->n);
+		trav = trav->next;
 		count++;
 	}
 
