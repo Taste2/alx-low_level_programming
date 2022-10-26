@@ -8,7 +8,7 @@
 
 size_t print_listint(const listint_t *h)
 {
-	listint_t *trav;
+	struct listint_s *trav;
 
 	trav = h;
 
