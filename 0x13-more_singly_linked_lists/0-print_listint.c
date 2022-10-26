@@ -19,5 +19,7 @@ size_t print_listint(const listint_t *h)
 		trav = trav->next;
 		count++;
 	}
+	free(trav);
+
 	return (count);
 }
