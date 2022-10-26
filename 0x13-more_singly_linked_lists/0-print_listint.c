@@ -10,7 +10,7 @@ size_t print_listint(const listint_t *h)
 {
 	listint_t *trav;
 
-	int count = 0;
+	size_t count = 0;
 
 	trav = h;
 	while (trav)
@@ -19,7 +19,6 @@ size_t print_listint(const listint_t *h)
 		trav = trav->next;
 		count++;
 	}
-	free(trav);
 
 	return (count);
 }
