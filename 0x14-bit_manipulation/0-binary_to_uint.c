@@ -9,7 +9,7 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	int len, i, pow = 1;
+	int len, i, j, pow = 1;
 
 	unsigned int decima_l = 0;
 
@@ -23,11 +23,11 @@ unsigned int binary_to_uint(const char *b)
 		}
 		if (b[i] == '0')
 		{
-			int j = 0;
+			j = 0;
 		}
 		else if (b[i] == '1')
 		{
-			int j = 1;
+			j = 1;
 		}
 
 		decima_l += j * pow;
